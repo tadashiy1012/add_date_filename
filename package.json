@@ -1,0 +1,24 @@
+{
+  "name": "add_date_filename",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --require intelli-espower-loader"
+  },
+  "keywords": [
+    "rename"
+  ],
+  "author": "Tadashi Yamazaki <tadashi.y1012@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "intelli-espower-loader": "^1.0.1",
+    "mocha": "^2.5.3",
+    "power-assert": "^1.4.1"
+  },
+  "homepage": "https://github.com/tadashiy1012/add_date_filename",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:tadashiy1012/add_date_filename.git"
+  }
+}
