@@ -1,6 +1,6 @@
 {
   "name": "add_date_filename",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Add the date to the file name",
   "main": "index.js",
   "scripts": {
