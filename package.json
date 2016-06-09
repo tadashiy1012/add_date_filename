@@ -25,7 +25,6 @@
     "test": "test/"
   },
   "dependencies": {
-    "async": "^2.0.0-rc.5",
     "filelist_reader": "^1.0.1",
     "get_dt": "^1.0.0"
   }
