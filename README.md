@@ -4,15 +4,11 @@
 Add the date to the file name
 
 ## Installation
-
 `$ npm install add_date_filename`
 
 ## Example
-
-    const renamer = require('add_date_filename');
-    renamer(targetDirectoryPath).then((result) => {
-      console.log(result); // true
-    });
+    var renamer = require('add_date_filename');
+    renamer(targetDirectoryPath).then();
 
 ## License
 The MIT License (MIT) Copyright (c) 2016 Tadashi Yamazaki
