@@ -1,9 +1,18 @@
+[![Build Status](https://travis-ci.org/tadashiy1012/add_date_filename.svg?branch=master)](https://travis-ci.org/tadashiy1012/add_date_filename)
+
 # add_date_filename
 Add the date to the file name
 
 ## Installation
 
 `$ npm install add_date_filename`
+
+## Example
+
+    const renamer = require('add_date_filename');
+    renamer(targetDirectoryPath).then((result) => {
+      console.log(result); // true
+    });
 
 ## License
 The MIT License (MIT) Copyright (c) 2016 Tadashi Yamazaki
