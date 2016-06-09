@@ -1,7 +1,7 @@
 {
   "name": "add_date_filename",
   "version": "1.0.0",
-  "description": "",
+  "description": "Add the date to the file name",
   "main": "index.js",
   "scripts": {
     "test": "mocha --require intelli-espower-loader"
@@ -20,5 +20,13 @@
   "repository": {
     "type": "git",
     "url": "git@github.com:tadashiy1012/add_date_filename.git"
+  },
+  "directories": {
+    "test": "test/"
+  },
+  "dependencies": {
+    "async": "^2.0.0-rc.5",
+    "filelist_reader": "^1.0.1",
+    "get_dt": "^1.0.0"
   }
 }
